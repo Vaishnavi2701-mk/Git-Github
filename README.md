@@ -76,7 +76,15 @@ https://git-scm.com/downloads
 7) ls -git: it will show everything inside git folder
 8) touch "name.txt" : this creates new file named "name.txt"
 9) rm -rf : which stands for "remove recursively and forcefully" that is used for forcefully removing files.
-10) git status : this command is used to track untrakked files and modification we have made in a repository.
+10) git status : this command is used to track untracked files and modification we have made in a repository.
 11) git add . : this command is used for staging the changed we have made, here "." means it is instructing to stage each and every file we have made inside a specific repository.
 12) git add name.txt : this command is used for staging particular file changes, eg; here it is staging a file named "name.txt".
 13) git commit -m "any message you have to write about a commit" : after staging the changes you have to commit them for which this command is used and after -m we can provide any message related to our commit in " ". 
+14) vi name.txt : this command will redirect you to a specific file mention there to make changes.
+15) cat name.txt : by using this command we can see the content inside a file.
+16) git restore --staged name.txt : we can use this command to unstage the changes we have made by mistake before commiting it.
+17) git log : this command help us to see all the history of commits we have made including author (who made the commit), a file name( where they made a commit), what changes they have done and time when they made those changes
+18) git reset f4567ce56f005634ff34be6543825e78b45a8976 : consider that we have commited smething which we want to remove, so we have to copy a hash ID of a commit below that and run this command; for an eg, there are 3 commits (commits are staged above each another) they are arranged in a way 3,2,1 so if we want to delete 3rd and 2nd commit we have to reset ID of a 1st commit. If we do "git status" then these 2 commits are said to be untracked in description.
+19) git stash : if we want to make some changes in our repository but we dont want to commit them and dont want to lose them at a same time then we can use "git stash" for baking up those changes after staging.
+20) git stash pop : if we want to see those changes which we have backed up; we can use this command.
+21) git stash clear : if we want to delete those changes who were baked up and not commited; we can use this command.
