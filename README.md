@@ -59,3 +59,24 @@ Git and GitHub are widely used in software development for version control and c
 6. Code Reviews: GitHub facilitates code reviews, where developers can review each other's code before merging it into the main codebase. Code reviews improve code quality, catch potential bugs, and provide an opportunity for knowledge sharing and learning among team members.
 
 7. Community and Visibility: GitHub fosters a vibrant community of developers who can discover and explore each other's projects. It promotes visibility for individual developers and allows them to showcase their work, making it easier to find job opportunities and collaborate on interesting projects.
+
+<h1> Download Git </h1>
+Download a git on you computer/laptop frona link below 👇
+
+https://git-scm.com/downloads
+
+<h1> Some basic linux commands </h1>
+
+1) git :  it displays a list of available Git commands and their descriptions. This serves as a quick reference for using Git in the command-line interface.
+2) ls : it will list out all the directories in particular folder
+3) mkdir : if we want to create a directory in a specific folder then we can use this command, eg; cd Desktop, ls, mkdir project
+4) cd : (change directory) this command redirect us to a particular folder or file
+5) git init : there is a repository named "git" (hidden file) is provided by git to every folder which saves all the history and modification we made in a project, it is saved as .git, by doing "git init" we initialized empty repository.
+6) ls -a : it means show all the hidden files.
+7) ls -git: it will show everything inside git folder
+8) touch "name.txt" : this creates new file named "name.txt"
+9) rm -rf : which stands for "remove recursively and forcefully" that is used for forcefully removing files.
+10) git status : this command is used to track untrakked files and modification we have made in a repository.
+11) git add . : this command is used for staging the changed we have made, here "." means it is instructing to stage each and every file we have made inside a specific repository.
+12) git add name.txt : this command is used for staging particular file changes, eg; here it is staging a file named "name.txt".
+13) git commit -m "any message you have to write about a commit" : after staging the changes you have to commit them for which this command is used and after -m we can provide any message related to our commit in " ". 
