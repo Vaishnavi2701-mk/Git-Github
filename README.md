@@ -41,3 +41,21 @@ Specifically, Git is a distributed version control system, which means that the 
 GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
 
 GitHub’s interface is user-friendly enough so even novice coders can take advantage of Git. Without GitHub, using Git generally requires a bit more technical savvy and use of the command line.
+
+<h1> Why we use Git & Github? </h1>
+
+Git and GitHub are widely used in software development for version control and collaboration. Here's why they are popular:
+
+1. Version Control: Git is a distributed version control system (DVCS) that allows developers to track changes in their codebase over time. It enables them to create multiple branches, experiment with new features, and merge changes seamlessly. Git keeps a complete history of all changes made, making it easier to revert to a previous state if necessary.
+
+2. Collaboration: Git provides a platform for collaboration among developers working on the same project. Multiple developers can work on different features simultaneously without interfering with each other's code. They can merge their changes together using Git's merging capabilities.
+
+3. Code Backup and Recovery: Git allows developers to keep a backup of their code on a remote server, which helps protect against data loss. If a developer's local copy of the code is lost or corrupted, they can clone the repository from the remote server and resume their work.
+
+4. Branching and Forking: Git's branching model enables developers to create separate branches for different features or bug fixes. This allows them to work on independent tasks without affecting the main codebase. Forking is a feature of GitHub that allows developers to create a copy of a repository under their own account. They can make changes to the forked repository independently and propose those changes back to the original repository through pull requests.
+
+5. Open Source Collaboration: GitHub, a web-based hosting service built around Git, has become a hub for open source projects. It provides a platform for developers worldwide to contribute to open source projects by submitting pull requests and participating in discussions. GitHub has social features like issue tracking, project management, and documentation, making it easier for developers to collaborate and coordinate their efforts.
+
+6. Code Reviews: GitHub facilitates code reviews, where developers can review each other's code before merging it into the main codebase. Code reviews improve code quality, catch potential bugs, and provide an opportunity for knowledge sharing and learning among team members.
+
+7. Community and Visibility: GitHub fosters a vibrant community of developers who can discover and explore each other's projects. It promotes visibility for individual developers and allows them to showcase their work, making it easier to find job opportunities and collaborate on interesting projects.
