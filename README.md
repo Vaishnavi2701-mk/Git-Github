@@ -119,8 +119,16 @@ There are three main steps while modifying a remote reository in which first we 
 </br> git push origin master</br>
 Here "master" is a name of default branch but we can manipulate the branch name as per pur need.
 
-<h1> What are branches </h1>
+<h1> What are branches? </h1>
 Branches are parallel version of a repository's codebase. It allows developers to work on different features, bug fixes, or experiments in isolation without affecting the main codebase. Each branch represents an independent line of development with its own commits and history.
 There is always a main branch which is the default branch in a GitHub repository often named "main" previously known as a "master". It represents the primary branch where the stable and production-ready code resides.  After a branch's changes have been merged into the main branch or are no longer required, the branch can be deleted. Deleting branches helps keep the repository clean and reduces clutter.
 
 
+<h1> Why we use branches? </h1>
+1. Independent Development: Branches allow developers to work on different features or bug fixes independently of each other. Each branch represents a separate line of development, enabling developers to focus on specific tasks without interfering with the main codebase or other ongoing work.
+
+2. Code Isolation: By creating a branch, you can isolate your changes from the main codebase until they are ready to be merged. This isolation helps prevent conflicts and ensures that the main codebase remains stable and unaffected by ongoing development work.
+
+3. Parallel Development: Branches enable multiple developers to work on different features or issues simultaneously. Each developer can create their own branch and make independent changes without stepping on each other's toes. This promotes collaboration, speeds up development, and improves productivity.
+
+4. Code Reviews: Branches facilitate the code review process. When you create a branch for a specific task or feature, you can share it with others for review. Peers or team members can review the code, provide feedback, and suggest improvements before merging the branch into the main codebase.
