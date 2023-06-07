@@ -88,79 +88,82 @@ This command will list out all the directories in particular folder.</br>
 ```
 mkdir
 ```
-if we want to create a directory in a specific folder then we can use this command, eg; cd Desktop, ls, mkdir project
+If we want to create a directory in a specific folder then we can use this command, eg; cd Desktop, ls, mkdir project.</br> 
 ```
 cd
 ```
-(change directory) this command redirect us to a particular folder or file
+This command (change directory) redirect us to a particular folder or file.</br> 
 ```
 git init
 ```
-there is a repository named "git" (hidden file) is provided by git to every folder which saves all the history and modification we made in a project, it is saved as .git, by doing "git init" we initialized empty repository.
+There is a repository named "git" (hidden file) is provided by git to every folder which saves all the history and modification we made in a project, it is saved as .git, by doing "git init" we initialized empty repository.</br> 
 ```
 ls -a
 ```
-it means show all the hidden files.
+This means show all the hidden files.</br> 
 ```
 ls -git
 ```
-it will show everything inside git folder
+This command will show everything inside git folder. </br> 
 ```
 touch name.txt
 ```
-this creates new file named "name.txt"
+This creates new file named "name.txt". </br> 
 ```
 rm -rf
 ```
-which stands for "remove recursively and forcefully" that is used for forcefully removing files.
+This is the command which stands for "remove recursively and forcefully" that is used for forcefully removing files.</br> 
 ```
 git status
 ```
-this command is used to track untracked files and modification we have made in a repository.
+This command is used to track untracked files and modification we have made in a repository.</br> 
+
 ```
 git add .
 ```
-this command is used for staging the changed we have made, here "." means it is instructing to stage each and every file we have made inside a specific repository.
+This command is used for staging the changed we have made, here "." means it is instructing to stage each and every file we have made inside a specific repository.</br> 
+
 ```
 git add name.txt
 ```
-this command is used for staging particular file changes, eg; here it is staging a file named "name.txt".
+This command is used for staging particular file changes, eg; here it is staging a file named "name.txt".</br> 
+
 ```
 git commit -m "Relevant Message"
 ```
-after staging the changes you have to commit them for which this command is used and after -m we can provide any message related to our commit in " ". 
+After staging the changes you have to commit them for which this command is used and after -m we can provide any message related to our commit in " ".</br>  
 ```
 vi name.txt
 ```
-this command will redirect you to a specific file mention there to make changes.
+This command will redirect you to a specific file mention there to make changes.</br> 
 ```
 cat name.txt
 ```
-by using this command we can see the content inside a file.
+By using this command we can see the content inside a file.</br> 
 ```
 git restore --staged name.txt
 ```
-we can use this command to unstage the changes we have made by mistake before commiting it.
+We can use this command to unstage the changes we have made by mistake before commiting it.</br> 
 ```
 git log
 ```
-this command help us to see all the history of commits we have made including author (who made the commit), a file name( where they made a commit), what changes they have done and time when they made those changes
+This command help us to see all the history of commits we have made including author (who made the commit), a file name( where they made a commit), what changes they have done and time when they made those changes. </br> 
 ```
 git reset f4567ce56f005634ff34be6543825e78b45a8976
 ```
-consider that we have commited smething which we want to remove, so we have to copy a hash ID of a commit below that and run this command; for an eg, there are 3 commits (commits are staged above each another) they are arranged in a way 3,2,1 so if we want to delete 3rd and 2nd commit we have to reset ID of a 1st commit. If we do "git status" then these 2 commits are said to be untracked in description.
+Consider that we have commited smething which we want to remove, so we have to copy a hash ID of a commit below that and run this command; for an eg, there are 3 commits (commits are staged above each another) they are arranged in a way 3,2,1 so if we want to delete 3rd and 2nd commit we have to reset ID of a 1st commit. If we do "git status" then these 2 commits are said to be untracked in description. </br> 
 ```
 git stash
 ```
-if we want to make some changes in our repository but we dont want to commit them and dont want to lose them at a same time then we can use "git stash" for baking up those changes after staging.
+If we want to make some changes in our repository but we dont want to commit them and dont want to lose them at a same time then we can use "git stash" for baking up those changes after staging.</br> 
 ```
 git stash pop
 ```
-if we want to see those changes which we have backed up; we can use this command.
+If we want to see those changes which we have backed up; we can use this command.</br> 
 ```
 git stash clear
 ```
-if we want to delete those changes who were baked up and not commited; we can use this command.
+If we want to delete those changes who were baked up and not commited; we can use this command.</br> 
 
 <h1> Creating a new repository </h1>
 
@@ -172,8 +175,8 @@ Click on that "New Repository" option and give a name to your repository and the
 
 <h1> Connecting Remote repository to Local Repository </h1>
 When we create a specific repository on GitHub then it is termed as "Remote Repository" and when we create a repository/folder on our local machine then it is termed as "Local Repository". There will be a situation when we want to connect our remote repository to local repository to work with it on local machine that time we will use some git commands as follows;</br>
-```terminal
-</br>git remote add origin your_remote_repository_url</br>
+```
+git remote add origin your_remote_repository_url
 ```
 The term "origin" is a convention used in Git to refer to the default remote repository. It acts as a reference to the remote repository's URL, allowing you to easily interact with it using Git commands.
 
