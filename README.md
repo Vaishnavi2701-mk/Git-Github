@@ -101,3 +101,8 @@ As soon as you created your account on GitHub there will be your profile visible
 
 <h4> Step 2 </h4>
 Click on that "New Repository" option and give a name to your repository and there will be an option for you to make it "Public" or "Private"; after that click on "Create a Repository" button.
+
+<h1> Connecting Remote repository to Local Repository </h1>
+When we create a specific repository on GitHub then it is termed as "Remote Repository" and when we create a repository/folder on our local machine then it is termed as "Local Repository". There will be a situation when we want to connect our remote repository to local repository to work with it on local machine that time we will use some git commands as follows;
+
+git remote add origin your_remote_repository_url
