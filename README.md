@@ -118,3 +118,5 @@ It will show all the url's connected with local repository.
 There are three main steps while modifying a remote reository in which first we have to stage the changes, second is we have to commit those changes but these changes will reflected only after we push them. Let's take a look how we push our commits;
 
 </br> git push origin master</br>
+
+Here "master" is a name of default branch but we can manipulate the branch name as per pur need.
