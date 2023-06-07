@@ -197,8 +197,13 @@ It will show all the url's connected with local repository.
 <h1> Pushing the changes into remote repository </h1>
 
 There are three main steps while modifying a remote reository in which first we have to stage the changes, second is we have to commit those changes but these changes will reflected only after we push them. Let's take a look how we push our commits;
+</br>
+</br>
 
-git push origin master</br>
+```
+git push origin master
+```
+
 
 Here "master" is a name of default branch but we can manipulate the branch name as per pur need.
 
@@ -220,12 +225,22 @@ There is always a main branch which is the default branch in a GitHub repository
 <img width="1440" alt="Screenshot 2023-06-07 at 10 50 09 AM" src="https://github.com/Vaishnavi2701-mk/Git-Github/assets/89184872/d98309e8-b441-495a-af6a-d9a8fd978600">
 
 </br>In the image shown above it is clearly visible that how branches resides on top of each other. After certain number of commits I have created a new branch named "my_branch" as follows;
+</br>
+</br>
 
-git branch my_branch </br>
+```
+git branch my_branch 
+```
+
 
 Now our 'Head' is pointing towards our new branch which is represented as * just because I have passed a command;
 
-git checkout my_branch </br>
+</br>
+</br>
+
+```
+git checkout my_branch 
+```
 
 <h3> What is Head? </h3>
 
@@ -249,42 +264,81 @@ The first thing we have to do is fork a repository. On a project repository ther
 
 <h3> Step 2: Clone a Repository on your local machine</h3>
 Next thing you should to do is clone that URL. We have to clone a project on our local machine and to do so follow a command;
+</br>
+</br>
 
-git clone your_project_url</br>
+```
+git clone your_project_url
+```
 
 
 <h3> Step 3: Connect upstream URL</h3>
 Next thing you should to do is connect the upstream URL to local project. The URL which is linked to our account is origin URL but the URL from where we forked this project is called "upstream URL" by convention. We have already cloned our origin URL on our local machine but to connect upstream URL with out local host we have to follow a command;
+</br>
+</br>
 
-git remote add upstream your_project_url</br>
+```
+git remote add upstream your_project_url
+```
 
 <h3> Step 4: Navigate to Project directory</h3>
 Next step is to navigate to a project directory.
-</br>cd "repository_name"</br>
-</br>npm i</br>
-</br>npm start</br>
+</br>
+</br>
+
+```
+cd "repository_name"
+```
+```
+npm i
+```
+```
+npm start
+```
 
 
 <h3> Step 5: Create a new branch</h3>
 Now create a new branch where you will make all the changes by;
+</br>
+</br>
 
-</br> git branch new_branch </br>
+```
+git branch new_branch
+```
 
 <h3> Step 6: Move HEAD to new branch</h3>
 Then move the "Head" to the new_branch so that all the commits will be pushed in new_branch by;
+</br>
+</br>
 
-</br> git checkout new_branch </br>
+```
+git checkout new_branch
+```
 or
-</br>git checkout -b my-new-branch</br>
+</br>
+</br>
+
+```
+git checkout -b my-new-branch
+```
 
 The above command will directly create a new branch and move "Head" towards it at a same time.
 
 
 <h3> Step 7: Push the changes</h3>
 Now we will stage the changes, commit and push to a new branch by;</br>
-</br> git add .</br>
-</br> git commit -m "Relevant Message"</br>
-</br> git push origin "new_branch"</br>
+</br>
+</br>
+
+```
+git add .
+```
+```
+git commit -m "Relevant Message"
+```
+```
+git push origin new_branch
+```
 
 
 <h3> Step 8: Create a Pull Request</h3>
@@ -314,18 +368,32 @@ git log
 <h3> Remove the commit</h2>
 
 Delete that commit by doing;
+</br>
+</br>
 
+```
 git reset HASH_ID
+```
 
 <h3> Stage the changes and stash them </h3>
+</br>
+</br>
 
-git add .
-git stash
+```
+git add . 
+```
+```
+git stash 
+```
 
 <h3> Force Push</h3>
 We have deleted the commit but we must force push this because commits are interlinked and our remote repository contain this commit which is not present is local repository.
+</br>
+</br>
 
+```
 git push origib your_branch_name -f 
+```
 
 <h1> Merge Pull Request </h1>
 
@@ -336,22 +404,39 @@ As a Project Administrator if you want to merge a pull request then there is sim
 As we dont have an access to edit the main project directly same as that the admin of main project doesn't have an access to edit our forked repository. Hence we cannot see merged changes in our forked repository. We can see a message above our forked repository as "This branch is 'n' commits behind" where 'n' denoted the number of commits.
 
 We make it even with our upstream/main repository and there are two ways to do it. First way, we can directly fetch it by using an option in the top right corner of a repository called "fetch upstream". Second is manually we can do it, by using a command; 
+</br>
+</br>
 
+```
 git fetch --all --prune
+```
 
 where --all says all the branches and --prune says all the previous one we have deleted. Thereafter we have to reset "main" branch of our forked repository with "main" branch of upstream, which we will do by;
+</br>
+</br>
 
+```
 git reset --hard upstream/main 
+```
 
 or we can use a pull command to do this as;
+</br>
+</br>
 
-git pull upstream main
+```
+git pull upstream main 
+```
 
 <h1> Squash Commits by using Rebase command </h1>
 
 Let's consider we have multiple commits and we want to merge those commits into one single commit then we will use rebase command as follows;
+</br>
+</br>
 
+```
 git rebase -i HASH_ID
+```
+
 
 Here, "-i" means "interactive environment" and HASH_ID is an ID of that commit above which all the commits we want to merge, eg., there are 5,4,3,2,1 commits and if we want to merge 5,4,3,2 into a single commit then we will consider a HASH_ID of 1st commit.
 After this command we will get something like this 👇
@@ -373,8 +458,12 @@ It means now commit 3rd and 4th will merge into 2nd commit. To get out of it pre
 <h1> Using the Hard Flag to reset </h1>
 
 We can reset our commit by using hard flag but we must use it with caution.
+</br>
+</br>
 
+```
 git reset --hard upstream/main HASH_ID
+```
 
 <h1> Merge conflict and how to resolve them? </h1>
 
