@@ -18,7 +18,7 @@ In addition to being distributed, Git has been designed with performance, securi
 
 At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles:
 
-Version control
+Version control </br>
 Git
 
 
