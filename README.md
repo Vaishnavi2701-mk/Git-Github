@@ -475,6 +475,8 @@ When more than one person try to make changes in same part of code then it will 
 
 When we click on "Merge Pull Request" it will show a message like "This request contains merge conflict", then click on "Resolve Conflicts" and manually make the relevant changes , click on "Marked as Resolved" and then finaly "Commit Merge".
 
+<h1> What is an issue in GitHub and how to create an issue? </h1>
+
 In GitHub, creating an issue refers to opening a ticket or report to track a problem, bug, feature request, or any other topic related to a repository. Issues provide a structured way for collaboration, communication, and project management within a repository.
 
 To create an issue in GitHub, follow these steps:
