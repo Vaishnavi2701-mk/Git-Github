@@ -138,11 +138,11 @@ There is always a main branch which is the default branch in a GitHub repository
 
 </br>In the image shown above it is clearly visible that how branches resides on top of each other. After certain number of commits I have created a new branch named "my_branch" as follows;
 
-</br> git branch my_branch </br>
+git branch my_branch </br>
 
 Now our 'Head' is pointing towards our new branch which is represented as * just because I have passed a command;
 
-</br> git checkout my_branch </br>
+git checkout my_branch </br>
 
 <h3> What is Head? </h3>
 
