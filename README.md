@@ -111,4 +111,10 @@ The term "origin" is a convention used in Git to refer to the default remote rep
 
 If I will do : git remote -v 
 
-It will show all the url's connected with local repository
+It will show all the url's connected with local repository.
+
+<h1> Pushing the changes into remote repository </h1>
+
+There are three main steps while modifying a remote reository in which first we have to stage the changes, second is we have to commit those changes but these changes will reflected only after we push them. Let's take a look how we push our commits;
+
+</br> git push origin master</br>
