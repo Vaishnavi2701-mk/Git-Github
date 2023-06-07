@@ -304,3 +304,31 @@ When more than one person try to make changes in same part of code then it will 
 <h3> How to resolve Merge Conflict? </h3>
 
 When we click on "Merge Pull Request" it will show a message like "This request contains merge conflict", then click on "Resolve Conflicts" and manually make the relevant changes , click on "Marked as Resolved" and then finaly "Commit Merge".
+
+In GitHub, creating an issue refers to opening a ticket or report to track a problem, bug, feature request, or any other topic related to a repository. Issues provide a structured way for collaboration, communication, and project management within a repository.
+
+To create an issue in GitHub, follow these steps:
+
+1. Navigate to the repository: Go to the repository on GitHub where you want to create the issue.
+
+2. Click on the "Issues" tab: The "Issues" tab is located near the top of the repository page, next to the "Code" tab.
+
+3. Click on the "New issue" button: On the right-hand side of the "Issues" page, you will find a green button labeled "New issue." Click on it.
+
+4. Fill in the issue details:
+   - Title: Provide a concise and descriptive title for the issue.
+   - Comment: Write a detailed description of the issue, including any relevant information, steps to reproduce a bug, or suggestions for improvements.
+   - Labels: Optionally, you can assign labels to categorize the issue (e.g., bug, enhancement, documentation).
+   - Assignees: You can assign the issue to one or more individuals who will be responsible for addressing it.
+   - Milestone: If your project uses milestones to track progress, you can assign the issue to a specific milestone.
+   - Additional Options: GitHub provides various additional options, such as attaching files, linking related issues or pull requests, and more.
+
+5. Preview and Submit: Before submitting the issue, preview the content to ensure everything looks correct. If satisfied, click on the "Submit new issue" button.
+
+Once the issue is created, it becomes a central place for discussion, collaboration, and tracking progress related to the specific topic. Users can comment on the issue, offer solutions, provide additional information, or indicate that they are working on addressing the issue.
+
+Creating issues in GitHub helps to organize and manage tasks, foster communication among project contributors, and maintain a structured workflow for resolving problems or implementing new features.
+
+<h3> Dealing with issue on Github </h3>
+
+To repond an issue, we can create a related commit to resolve that and in a commit message we can add an issue ID, eg., "I have made changes in response to #4" or if we will write "I fixed #4" then it will automatically close an issue as "fixed" keyword identify that it must be close. Same as that copy the commit hash ID for a particular issue and mention it in the description box as "I have resolve this issue with a commit 5gfkhj5hhkk3427ku789e". This is much relevant because other users can check that for which commit we have resolved which issue and for which issue we have made what commit.
