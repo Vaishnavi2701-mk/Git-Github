@@ -116,7 +116,11 @@ It will show all the url's connected with local repository.
 <h1> Pushing the changes into remote repository </h1>
 
 There are three main steps while modifying a remote reository in which first we have to stage the changes, second is we have to commit those changes but these changes will reflected only after we push them. Let's take a look how we push our commits;
-
 </br> git push origin master</br>
-
 Here "master" is a name of default branch but we can manipulate the branch name as per pur need.
+
+<h1> What are branches </h1>
+Branches are parallel version of a repository's codebase. It allows developers to work on different features, bug fixes, or experiments in isolation without affecting the main codebase. Each branch represents an independent line of development with its own commits and history.
+There is always a main branch which is the default branch in a GitHub repository often named "main" previously known as a "master". It represents the primary branch where the stable and production-ready code resides.  After a branch's changes have been merged into the main branch or are no longer required, the branch can be deleted. Deleting branches helps keep the repository clean and reduces clutter.
+
+
