@@ -137,11 +137,15 @@ There is always a main branch which is the default branch in a GitHub repository
 <img width="1440" alt="Screenshot 2023-06-07 at 10 50 09 AM" src="https://github.com/Vaishnavi2701-mk/Git-Github/assets/89184872/d98309e8-b441-495a-af6a-d9a8fd978600">
 
 In the image shown above it is clearly visible that how branches resides on top of each other. After certain number of commits I have created a new branch named "my_branch" as follows;
+
 </br> git branch my_branch </br>
+
 Now our 'Head' is pointing towards our new branch which is represented as * just because I have passed a command; 
+
 </br> git checkout my_branch </br>
 
 <h3> What is Head? </h3>
+
 "Head" refers to the current commit or the current branch you have checked out in your local repository. It is a symbolic reference as * that points to the tip of the currently selected branch. You can use "Head" as a reference to view details and information about the current commit. For example, you can use the command 'git log HEAD' to see the commit history leading up to the current commit.
 
 
