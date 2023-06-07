@@ -299,5 +299,7 @@ git reset --hard upstream/main HASH_ID
 
 <h3> What is Merge Conflict </h3>
 
-When more than one person try to make changes in same part of code then it will create merge conflict. And to resolve that we have to make some manual changes. When we click on "Merge Pull Request" it will show a message like "This request contains merge conflict", then click on "Resolve Conflicts" and manually make the relevant changes , click on "Marked as Resolved" and then finaly "Commit Merge".
+When more than one person try to make changes in same part of code then it will create merge conflict. And to resolve that we have to make some manual changes. 
 
+<h3> How to resolve Merge Conflict? </h3>
+When we click on "Merge Pull Request" it will show a message like "This request contains merge conflict", then click on "Resolve Conflicts" and manually make the relevant changes , click on "Marked as Resolved" and then finaly "Commit Merge".
