@@ -217,3 +217,7 @@ A pull request is a feature in GitHub (and other Git hosting platforms) that ena
 
 <h1> How to create a Pull Request? </h1>
 Follow the step number 8 in " Working with existing project " section to create a Pull Request.
+
+<h2> Note </h2>
+
+While creating multiple pull requests you may have noticed that once you made a pull request you cannot make another pull request by commiting on the same branch. GitHub doesn't allow you to make more that one pull request within a single branch, for every new commit or we can consider to make a new pull request we have to create a new branch.
