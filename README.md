@@ -160,3 +160,13 @@ git checkout my_branch </br>
 </br> As soon as we passed the command "git merge my_branch", "my_branch" is merged with "main" branch, and now all the changes we have done in the "my_branch" are visible into "main" branch.
 
 <h1> Working with existing project </h1>
+
+While working with existing project we have to keep in mind that we dont have an access of that particular project and we cannot make direct changes to it. There are several steps we have to follow.
+
+<h3>Step 1</h3>
+The first thing we have to do is fork a repository. On a project repository there are three options in top right corener, watch, star, fork, click on the "fork" option.
+
+<h3> Step 2</h3>
+Next thing you have to do is clone that URL. We have to clone a project on our local machine and to do so follow a command;
+
+git clone your_project_url</br>
