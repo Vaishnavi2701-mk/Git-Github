@@ -76,13 +76,10 @@ https://desktop.github.com/
 <h1> Some basic linux commands </h1>
 
 
-- Create a new Branch
-
 ```
-git checkout -b my-new-branch
+git 
 ```
-
-1) git :  it displays a list of available Git commands and their descriptions. This serves as a quick reference for using Git in the command-line interface.
+It displays a list of available Git commands and their descriptions. This serves as a quick reference for using Git in the command-line interface.
 2) ls : it will list out all the directories in particular folder
 3) mkdir : if we want to create a directory in a specific folder then we can use this command, eg; cd Desktop, ls, mkdir project
 4) cd : (change directory) this command redirect us to a particular folder or file
