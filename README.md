@@ -249,3 +249,19 @@ git push origib your_branch_name -f
 <h1> Merge Pull Request </h1>
 
 As a Project Administrator if you want to merge a pull request then there is simple methos to follow, open a GitHub account, navigate to your repository and open a pull request section where you will find numerous pull requests, open them and you will find a button below "Merge Pull Request" click on that.
+
+<h1> Making forked project even with main project </h1>
+
+As we dont have an access to edit the main project directly same as that the admin of main project doesn't have an access to edit our forked repository. Hence we cannot see merged changes in our forked repository. We can see a message above our forked repository as "This branch is 'n' commits behind" where 'n' denoted the number of commits.
+
+We make it even with our upstream/main repository and there are two ways to do it. First way, we can directly fetch it by using an option in the top right corner of a repository called "fetch upstream". Second is manually we can do it, by using a command; 
+
+git fetch --all --prune
+
+where --all says all the branches and --prune says all the previous one we have deleted. Thereafter we have to reset "main" branch of our forked repository with "main" branch of upstream, which we will do by;
+
+git reset --hard upstream/main 
+
+or we can use a pull command to do this as;
+
+git pull upstream main
