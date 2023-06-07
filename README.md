@@ -207,7 +207,7 @@ Now we will stage the changes, commit and push to a new branch by;</br>
 
 
 <h3> Step 8: Create a Pull Request</h3>
-Finally navigate to your forked repository on GitHun and click on "Compare & Pull Request"  button on the top, add a relevant message if you want to and create a Pull Request.
+Finally navigate to your forked repository on GitHub and click on "Compare & Pull Request"  button on the top, add a relevant message if you want to and create a Pull Request.
 
 Once you created a Pull Request admin will get a notification and after reviewing your request admin will merge your branch into main branch.
 
