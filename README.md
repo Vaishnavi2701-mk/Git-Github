@@ -265,3 +265,39 @@ git reset --hard upstream/main
 or we can use a pull command to do this as;
 
 git pull upstream main
+
+<h1> Squash Commits by using Rebase command </h1>
+
+Let's consider we have multiple commits and we want to merge those commits into one single commit then we will use rebase command as follows;
+
+git rebase -i HASH_ID
+
+Here, "-i" means "interactive environment" and HASH_ID is an ID of that commit above which all the commits we want to merge, eg., there are 5,4,3,2,1 commits and if we want to merge 5,4,3,2 into a single commit then we will consider a HASH_ID of 1st commit.
+After this command we will get something like this 👇
+
+pick f9ff654 2
+pick c6734ee 3
+pick y67rr45 4
+pick be2874f 5
+
+where we can change any "pick" to squash as "s" which means we can squash those commits into picked commit.
+
+pick f9ff654 2
+s c6734ee 3
+s y67rr45 4
+pick be2874f 5
+
+It means now commit 3rd and 4th will merge into 2nd commit. To get out of it press ESC+:+x, after that it will allow you to type some message and again get out of it by pressing ESC+:+x.
+
+<h1> Using the Hard Flag to reset </h1>
+
+We can reset our commit by using hard flag but we must use it with caution.
+
+git reset --hard upstream/main HASH_ID
+
+<h1> Merge conflict and how to resolve them? </h1>
+
+<h3> What is Merge Conflict </h3>
+
+When more than one person try to make changes in same part of code then it will create merge conflict. And to resolve that we have to make some manual changes. When we click on "Merge Pull Request" it will show a message like "This request contains merge conflict", then click on "Resolve Conflicts" and manually make the relevant changes , click on "Marked as Resolved" and then finaly "Commit Merge".
+
