@@ -221,3 +221,31 @@ Follow the step number 8 in " Working with existing project " section to create 
 <h2> Note </h2>
 
 While creating multiple pull requests you may have noticed that once you made a pull request you cannot make another pull request by commiting on the same branch. GitHub doesn't allow you to make more that one pull request within a single branch, for every new commit or we can consider to make a new pull request we have to create a new branch.
+
+<h1> Removing a commit from Pull Request by force pushing it </h1>
+
+<h3> Copy the Hash ID</h2>
+
+The first step is copying the hash ID of a commit which is below the commit we want to remove, it is obtained by doing;
+
+git log
+
+<h3> Remove the commit</h2>
+
+Delete that commit by doing;
+
+git reset HASH_ID
+
+<h3> Stage the changes and stash them </h3>
+
+git add .
+git stash
+
+<h3> Force Push</h3>
+We have deleted the commit but we must force push this because commits are interlinked and our remote repository contain this commit which is not present is local repository.
+
+git push origib your_branch_name -f 
+
+<h1> Merge Pull Request </h1>
+
+As a Project Administrator if you want to merge a pull request then there is simple methos to follow, open a GitHub account, navigate to your repository and open a pull request section where you will find numerous pull requests, open them and you will find a button below "Merge Pull Request" click on that.
