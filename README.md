@@ -133,4 +133,8 @@ There is always a main branch which is the default branch in a GitHub repository
 
 </br>4. Code Reviews: Branches facilitate the code review process. When you create a branch for a specific task or feature, you can share it with others for review. Peers or team members can review the code, provide feedback, and suggest improvements before merging the branch into the main codebase.
 
+<h1> Learn Git Branching (Making a new branch & switching to it) </h1>
+<img width="1440" alt="Screenshot 2023-06-07 at 10 50 09 AM" src="https://github.com/Vaishnavi2701-mk/Git-Github/assets/89184872/d98309e8-b441-495a-af6a-d9a8fd978600">
+
+In the image shown above 
 
