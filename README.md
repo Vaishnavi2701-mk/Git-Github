@@ -65,6 +65,11 @@ Download a git on you computer/laptop frona link below 👇
 
 https://git-scm.com/downloads
 
+<h1> Download GitHub </h1>
+Download a GitHub on you computer/laptop frona link below 👇
+
+https://desktop.github.com/
+
 <h1> Some basic linux commands </h1>
 
 1) git :  it displays a list of available Git commands and their descriptions. This serves as a quick reference for using Git in the command-line interface.
