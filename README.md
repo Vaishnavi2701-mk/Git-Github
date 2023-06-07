@@ -61,12 +61,12 @@ Git and GitHub are widely used in software development for version control and c
 7. Community and Visibility: GitHub fosters a vibrant community of developers who can discover and explore each other's projects. It promotes visibility for individual developers and allows them to showcase their work, making it easier to find job opportunities and collaborate on interesting projects.
 
 <h1> Download Git </h1>
-Download a git on you computer/laptop frona link below 👇
+Download git on you computer/laptop from a link below 👇
 
 https://git-scm.com/downloads
 
 <h1> Download GitHub </h1>
-Download a GitHub on you computer/laptop frona link below 👇
+Download GitHub on you computer/laptop from a link below 👇
 
 https://desktop.github.com/
 
