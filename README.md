@@ -93,3 +93,11 @@ https://desktop.github.com/
 19) git stash : if we want to make some changes in our repository but we dont want to commit them and dont want to lose them at a same time then we can use "git stash" for baking up those changes after staging.
 20) git stash pop : if we want to see those changes which we have backed up; we can use this command.
 21) git stash clear : if we want to delete those changes who were baked up and not commited; we can use this command.
+
+<h1> Creating a new repository </h1>
+
+<h4> Step 1 </h4>
+As soon as you created your account on GitHub there will be your profile visible on the top right corner and just beside that there will be a "+" icon; click on that icon and you will get an option of "New Repository".
+
+<h4> Step 2 </h4>
+Click on that "New Repository" option and give a name to your repository and there will be an option for you to make it "Public" or "Private"; after that click on "Create a Repository" button.
