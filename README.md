@@ -184,7 +184,13 @@ git remote add origin your_remote_repository_url
 
 The term "origin" is a convention used in Git to refer to the default remote repository. It acts as a reference to the remote repository's URL, allowing you to easily interact with it using Git commands.
 
-If I will do : git remote -v 
+If I will do : 
+</br>
+</br>
+
+```
+git remote -v
+```
 
 It will show all the url's connected with local repository.
 
