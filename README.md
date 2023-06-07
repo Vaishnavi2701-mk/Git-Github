@@ -158,3 +158,5 @@ git checkout my_branch </br>
 
 <img width="1440" alt="Screenshot 2023-06-07 at 10 51 36 AM" src="https://github.com/Vaishnavi2701-mk/Git-Github/assets/89184872/2bb12a4e-1627-4f89-95e6-db98b2cc4952">
 </br> As soon as we passed the command "git merge my_branch", "my_branch" is merged with "main" branch, and now all the changes we have done in the "my_branch" are visible into "main" branch.
+
+<h1> Working with existing project </h1>
