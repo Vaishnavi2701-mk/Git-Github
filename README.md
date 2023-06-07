@@ -211,6 +211,9 @@ Finally navigate to your forked repository on GitHun and click on "Compare & Pul
 
 Once you created a Pull Request admin will get a notification and after reviewing your request admin will merge your branch into main branch.
 
-<h1> What is Pull Request? </h1>
+<h1> What is a Pull Request? </h1>
 
 A pull request is a feature in GitHub (and other Git hosting platforms) that enables collaboration and code review within a Git repository. It provides a way for developers to propose changes they have made in their own branches and request that those changes be merged into a target branch, often the main branch of the repository.
+
+<h1> How to create a Pull Request? </h1>
+Follow the step number 8 in " Working with existing project " section to create a Pull Request.
