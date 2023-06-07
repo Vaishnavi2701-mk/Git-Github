@@ -148,4 +148,5 @@ git checkout my_branch </br>
 
 "Head" refers to the current commit or the current branch you have checked out in your local repository. It is a symbolic reference as * that points to the tip of the currently selected branch. You can use "Head" as a reference to view details and information about the current commit. For example, you can use the command 'git log HEAD' to see the commit history leading up to the current commit.
 
-
+<img width="1440" alt="Screenshot 2023-06-07 at 10 50 36 AM" src="https://github.com/Vaishnavi2701-mk/Git-Github/assets/89184872/6fbd5132-e4d0-4243-a3eb-b80f184a8aa6">
+</br> As shown in the image abouve you can see all the commits are gone into "my_branch"
