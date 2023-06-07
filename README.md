@@ -163,33 +163,33 @@ git checkout my_branch </br>
 
 While working with existing project we have to keep in mind that we dont have an access of that particular project and we cannot make direct changes to it. There are several steps we have to follow.
 
-<h3>Step 1</h3>
+<h3>Step 1: Fork a Repository</h3>
 The first thing we have to do is fork a repository. On a project repository there are three options in top right corener, watch, star, fork, click on the "fork" option.
 
-<h3> Step 2</h3>
+<h3> Step 2: Clone a Repository on your local machine</h3>
 Next thing you should to do is clone that URL. We have to clone a project on our local machine and to do so follow a command;
 
 git clone your_project_url</br>
 
 
-<h3> Step 3</h3>
+<h3> Step 3: Connect upstream URL</h3>
 Next thing you should to do is connect the upstream URL to local project. The URL which is linked to our account is origin URL but the URL from where we forked this project is called "upstream URL" by convention. We have already cloned our origin URL on our local machine but to connect upstream URL with out local host we have to follow a command;
 
 git remote add upstream your_project_url</br>
 
-<h3> Step 4</h3>
+<h3> Step 4: Navigate to Project directory</h3>
 Next step is to navigate to a project directory.
 </br>cd "repository_name"</br>
 </br>npm i</br>
 </br>npm start</br>
 
 
-<h3> Step 5</h3>
+<h3> Step 5: Create a new branch</h3>
 Now create a new branch where you will make all the changes by;
 
 </br> git branch new_branch </br>
 
-<h3> Step 6</h3>
+<h3> Step 6: Move HEAD to new branch</h3>
 Then move the "Head" to the new_branch so that all the commits will be pushed in new_branch by;
 
 </br> git checkout new_branch </br>
@@ -199,17 +199,18 @@ or
 The above command will directly create a new branch and move "Head" towards it at a same time.
 
 
-<h3> Step 7</h3>
+<h3> Step 7: Push the changes</h3>
 Now we will stage the changes, commit and push to a new branch by;</br>
 </br> git add .</br>
 </br> git commit -m "Relevant Message"</br>
 </br> git push origin "new_branch"</br>
 
 
-<h3> Step 8</h3>
+<h3> Step 8: Create a Pull Request</h3>
 Finally navigate to your forked repository on GitHun and click on "Compare & Pull Request"  button on the top, add a relevant message if you want to and create a Pull Request.
 
 Once you created a Pull Request admin will get a notification and after reviewing your request admin will merge your branch into main branch.
 
 <h1> What is Pull Request? </h1>
 
+A pull request is a feature in GitHub (and other Git hosting platforms) that enables collaboration and code review within a Git repository. It provides a way for developers to propose changes they have made in their own branches and request that those changes be merged into a target branch, often the main branch of the repository.
