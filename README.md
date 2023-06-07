@@ -79,8 +79,12 @@ https://desktop.github.com/
 ```
 git 
 ```
-It displays a list of available Git commands and their descriptions. This serves as a quick reference for using Git in the command-line interface.
-2) ls : it will list out all the directories in particular folder
+This command displays a list of available Git commands and their descriptions. This serves as a quick reference for using Git in the command-line interface.</br>
+```
+ls
+```
+This command will list out all the directories in particular folder.</br> 
+
 3) mkdir : if we want to create a directory in a specific folder then we can use this command, eg; cd Desktop, ls, mkdir project
 4) cd : (change directory) this command redirect us to a particular folder or file
 5) git init : there is a repository named "git" (hidden file) is provided by git to every folder which saves all the history and modification we made in a project, it is saved as .git, by doing "git init" we initialized empty repository.
