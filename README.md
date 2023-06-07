@@ -152,3 +152,9 @@ git checkout my_branch </br>
 
 <img width="1440" alt="Screenshot 2023-06-07 at 10 50 36 AM" src="https://github.com/Vaishnavi2701-mk/Git-Github/assets/89184872/6fbd5132-e4d0-4243-a3eb-b80f184a8aa6">
 </br> As shown in the image abouv, you can see all the commits are gone into "my_branch".
+
+<img width="1440" alt="Screenshot 2023-06-07 at 10 51 07 AM" src="https://github.com/Vaishnavi2701-mk/Git-Github/assets/89184872/19ca133f-c6bb-4fb7-93dc-668008b27600">
+</br> Now we moved our head to "main" branch again by passing a command "git checkout main, so that all commits are gone into this branch.
+
+<img width="1440" alt="Screenshot 2023-06-07 at 10 51 36 AM" src="https://github.com/Vaishnavi2701-mk/Git-Github/assets/89184872/2bb12a4e-1627-4f89-95e6-db98b2cc4952">
+</br> As soon as we passed the command "git merge my_branch", "my_branch" is merged with "main" branch, and now all the changes we have done in the "my_branch" are visible into "main" branch.
