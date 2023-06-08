@@ -78,7 +78,10 @@ https://windows.github.com
 https://mac.github.com
 
 <h1> SETUP </h1>
+
+
 Configuring user information used across all local repositories
+
 ```
 git config --global user.name “[firstname lastname]”
 ```
