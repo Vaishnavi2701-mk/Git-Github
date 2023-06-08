@@ -71,7 +71,11 @@ https://git-scm.com/downloads
 <h1> Download GitHub </h1>
 Download GitHub on you computer/laptop from a link below 👇
 
-https://desktop.github.com/
+<h2> GitHub for Windows </h2>
+https://windows.github.com
+
+<h2> GitHub for Mac </h2>
+https://mac.github.com
 
 <h1> Some basic linux commands </h1>
 
