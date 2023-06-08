@@ -463,17 +463,17 @@ git rebase -i HASH_ID
 Here, "-i" means "interactive environment" and HASH_ID is an ID of that commit above which all the commits we want to merge, eg., there are 5,4,3,2,1 commits and if we want to merge 5,4,3,2 into a single commit then we will consider a HASH_ID of 1st commit.
 After this command we will get something like this 👇
 
-pick f9ff654 2
-pick c6734ee 3
-pick y67rr45 4
-pick be2874f 5
+</br>pick f9ff654 2
+</br>pick c6734ee 3
+</br>pick y67rr45 4
+</br>pick be2874f 5
 
 where we can change any "pick" to squash as "s" which means we can squash those commits into picked commit.
 
-pick f9ff654 2
-s c6734ee 3
-s y67rr45 4
-pick be2874f 5
+</br>pick f9ff654 2
+</br>s c6734ee 3
+</br>s y67rr45 4
+</br>pick be2874f 5
 
 It means now commit 3rd and 4th will merge into 2nd commit. To get out of it press ESC+:+x, after that it will allow you to type some message and again get out of it by pressing ESC+:+x.
 
