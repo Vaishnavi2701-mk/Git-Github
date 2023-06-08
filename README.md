@@ -385,7 +385,9 @@ While creating multiple pull requests you may have noticed that once you made a 
 
 The first step is copying the hash ID of a commit which is below the commit we want to remove, it is obtained by doing;
 
+```
 git log
+```
 
 <h3> Remove the commit</h2>
 
