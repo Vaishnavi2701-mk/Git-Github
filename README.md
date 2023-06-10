@@ -201,7 +201,13 @@ When we create a specific repository on GitHub then it is termed as "Remote Repo
 </br>
 
 ```
-git remote add origin your_remote_repository_url
+echo "# Repo_Name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin repo_url
+git push -u origin main
 ```
 
 The term "origin" is a convention used in Git to refer to the default remote repository. It acts as a reference to the remote repository's URL, allowing you to easily interact with it using Git commands.
